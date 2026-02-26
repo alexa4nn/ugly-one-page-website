@@ -1,0 +1,30 @@
+.ruthie-regular {
+  font-family: "Ruthie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Super Popstar";
+    src: url(font/Super\ Popstar.ttf);
+}
+
+
+body{
+    /* background-color: #ff0000; */
+    background-image: url(images/bear-hug-bear.png);
+    background-size: cover;
+    color: blue;
+    font-size: 6rem;
+}
+
+h1{
+    background-color: aquamarine;
+    font-family: Ruthie;
+}
+
+p{
+    font-family: Super Popstar;
+    text-align: right;
+    rotate: calc(60deg);
+}
